@@ -1,6 +1,6 @@
 -   id: bazelisk-buildifier
     name: 'bazelisk buildifier'
     entry: run-bazelisk-buildifier.sh
-    files: 'BUILD.bazel|BUILD'
+    files: 'BUILD.bazel|BUILD|WORKSPACE'
     language: 'script'
     description: "Runs `buildifier` with bazelisk"
